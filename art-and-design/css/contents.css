@@ -1,0 +1,84 @@
+/*Study*/
+.image-area{
+    width: 90%;
+    height:50%;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+table.tlFlag{
+    width:50%;
+    height: auto;
+    max-height: 24vh;
+    padding: 0;
+    margin: 0 2.5% 0 2.5%;
+    border: 0;
+    display: inline;
+}
+table.tlFlag tr{
+    width:100%;
+    height: auto;
+    max-height: 10vh;
+}
+table.tlFlag td img{
+    max-width: 50%;
+    height: auto;
+    max-height: 24vh;
+    vertical-align: middle;
+}
+table.tlFlag td a{
+    font-size: 0;
+    padding:0 1% 0 1%;
+}
+iframe.tlFlag{
+    width: 50%;
+    max-width: 25vw;
+    height: 24vh;
+    margin:0 2.5% 0 2.5%;
+    display: inline;
+    vertical-align: top;
+    bottom: 0;
+}
+
+/* Contests */
+table.wooddesign{
+    width:100%;
+    height: 80%;
+}
+table.wooddesign td{
+    width:40%;
+    height: 80%;
+    text-align: center;
+}
+table.wooddesign td h5{
+    margin-left: 2.5%;
+}
+table.wooddesign a img{
+    margin:0 2.5% 0 2.5%;
+    width:auto;
+    height: 18vh;
+}
+iframe.wooddesign{
+    width:100%;
+    height:90%;
+    max-height: 50vh;
+}
+
+/* Inturnship */
+table.shizunos{
+    width:100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    table-layout: fixed;
+}
+table.shizunos tr,td{
+    vertical-align: top;
+    padding: 0;
+    height: 100%;
+}
+iframe.site{
+    width: 100%;
+    height: 90%;
+}

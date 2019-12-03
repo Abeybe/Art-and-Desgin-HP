@@ -1,0 +1,64 @@
+body{
+    color: white;
+    text-shadow: black 1px 0 1px;
+}
+
+.visible{
+    visibility: visible;
+}
+.hidden{
+    visibility: hidden;
+}
+
+.inline{
+    display: inline-block;
+}
+/* Slid */
+.slid{
+    width: 80vw;
+    height: 50vh;
+    padding:2.5vw;
+    margin: 0;
+    position: absolute;
+    background-color: #cccccc;
+    text-align: left;
+    display: inline-block;
+    
+    background-image: url("../images/blackbord.png");
+}
+.wait-slid{
+    left:100vw;
+}
+.now-slid{
+    left:7.5vw;
+}
+.r2c{
+    animation:arrive 1s forwards;
+}
+.c2l{
+    animation:leave 1s forwards;
+}
+.c2r{
+    animation:re-arrive 1s forwards;
+}
+.l2c{
+    animation:re-leave 1s forwards;
+}
+
+@keyframes arrive{
+    0%{left:100vw;}
+    100%{left:7.5vw;}
+}
+@keyframes re-arrive{
+    0%{left:7.5vw;}
+    100%{left:100vw;}
+}
+
+@keyframes leave{
+    0%{left:7.5vw;}
+    100%{left:-100vw;}
+}
+@keyframes re-leave{
+    0%{left:-100vw;}
+    100%{left:7.5vw;}
+}
